@@ -1,0 +1,34 @@
+[
+    {
+        "id": "preferences",
+        "mnemonic": "n",
+        "caption": "Preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "children": [
+                    {
+                        "caption": "CoderReview",
+                        "children": [
+                            {
+                                "caption": "Settings \u2013 ReviewRecord",
+                                "command": "coder_review"
+                            }
+                        ],
+                    }
+                ],
+                "id": "package-settings",
+                "mnemonic": "P"
+            }
+        ]
+    },
+    {
+        "caption": "CoderReview",
+        "children": [
+            {
+                "caption": "Settings \u2013 ReviewRecord",
+                "command": "coder_review"
+            }
+        ]
+    }
+]
